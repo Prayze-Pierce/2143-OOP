@@ -6,8 +6,11 @@
 
 #### Image:
 
-<img src=![PFP](https://github.com/user-attachments/assets/b03c428d-b09f-4e1c-9b8b-f859f8d57f24) width=150>
+![unnamed](https://github.com/user-attachments/assets/f0481182-3625-47d6-9acb-e92bf3fa89f1)
 
 #### Avatar:
+
+
+![unnamed](https://github.com/user-attachments/assets/f0481182-3625-47d6-9acb-e92bf3fa89f1)
 
 
