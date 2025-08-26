@@ -6,9 +6,8 @@
 
 #### Image:
 
-<img src="<![unnamed](https://github.com/user-attachments/assets/b09d23a5-9649-41e7-bcae-a552e3b6c1b3) width=150
-
+<img src=![PFP](https://github.com/user-attachments/assets/b03c428d-b09f-4e1c-9b8b-f859f8d57f24) width=150>
 
 #### Avatar:
 
-<img src="https://images2.imgbox.com/ae/bd/tERTAGTL_o.png" width="75">
+
