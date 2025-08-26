@@ -8,9 +8,5 @@
 
 ![unnamed](https://github.com/user-attachments/assets/f0481182-3625-47d6-9acb-e92bf3fa89f1)
 
-#### Avatar:
-
-
-![unnamed](https://github.com/user-attachments/assets/f0481182-3625-47d6-9acb-e92bf3fa89f1)
 
 
