@@ -5,5 +5,18 @@ Click below to watch the project demonstration:
 
 
 ## Project Write-Up
-You can read the full write-up here:  
-[Download Write-Up - OOP.pdf]("Write-Up - OOP.pdf")
+Write-Up
+I took my terminal version of Conway’s Game of Life and turned it into a full SDL2 graphical program. The logic from my original automaton stayed the same, but everything around it was rebuilt to 
+support graphics, interaction, JSON pattern loading, and command-line configuration.
+For the implementation, I built an SdlScreen class that fully replaces the old text renderer. It handles SDL initialization, window creation, drawing the grid, drawing each cell, and managing frame timing.
+The SDL application runs an event loop where I process keyboard and mouse input, update the simulation when it’s not paused, and redraw the screen every frame. 
+Clicking on the grid toggles cells instantly, and keyboard shortcuts let me pause, step, randomize, clear, quit, and load patterns.
+I also implemented a JSON pattern loader. At startup, the program loads shapes.json and keeps the pattern data in memory. 
+When the user presses certain keys (like G, B, or O), the pattern is placed at the mouse cursor’s grid location.
+This required reading JSON structures, handling offsets, and making sure patterns don’t break when the cursor is near the edges. 
+Command-line arguments are also supported, letting me change window size, cell size, and frame delay before launching the program.
+The biggest challenges were getting SDL2 set up in the environment, getting the renderer and coordinate math consistent across clicking, drawing, and pattern placement,
+and keeping the code modular so it didn’t turn into a mess. The JSON loader also took some trial and error to get right.
+If I continued this project, I’d add more UI features like a visible generation counter, adjustable speed controls, 
+drag-to-draw for cells, zooming and panning, color themes, and maybe toroidal wrapping so patterns behave differently at the edges. 
+The core system works well now, so most improvements would be quality-of-life upgrades.
